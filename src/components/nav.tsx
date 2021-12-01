@@ -10,14 +10,16 @@ import ClearIcon from '@mui/icons-material/Clear';
 
 
 export default function NavBar() {
+    
     const [darkMode, setDarkMode] = useState(true)
-    const [darkIcon, setDarkIcon] = useState([<WbSunnyIcon />, <NightlightIcon />])
-    const [dropMenuIcon, setDropMenuIcon] = useState([<MenuIcon />, <ClearIcon />])
+    const [darkIcon, setDarkIcon] = useState([<WbSunnyIcon />, <NightlightIcon />]) // eslint-disable-line @typescript-eslint/no-unused-vars
+    const [dropMenuIcon, setDropMenuIcon] = useState([<MenuIcon />, <ClearIcon />]) // eslint-disable-line @typescript-eslint/no-unused-vars
     const [darkModeSelect, setDarkModeSelect] = useContext(DarkCont)
     const [toggleMenu, setToggleMenu] = useState(0)
-    var [rotateDark , setRotateDark] = useState([360,0])
-    var [logoCWB , setlogoCWB] = useState([logo,logo2])
+    var [rotateDark , setRotateDark] = useState([360,0]) // eslint-disable-line @typescript-eslint/no-unused-vars
+    var [logoCWB , setlogoCWB] = useState([logo,logo2]) // eslint-disable-line @typescript-eslint/no-unused-vars
 
+   
     const toggleDark = ()=>{
         if(darkMode === true){
             document.querySelector('html')!.className  = 'dark'

@@ -6,7 +6,7 @@ interface Props {
 }
 
 const Home: React.FC<Props> = (props: Props)=> {
-    const [darkModeSelect, setDarkModeSelect] = useContext(DarkCont)
+    const [darkModeSelect, setDarkModeSelect] = useContext(DarkCont) // eslint-disable-line @typescript-eslint/no-unused-vars
     return (
         <div className='pt-14 backdrop-filter backdrop-blur-sm dark:bg-thedarkblue h-screen flex flex-col-reverse tablet:flex-row'>
             <div className='tablet:w-2/3 desktop:w-1/3 text-thedarkblue h-full flex justify-start tablet:justify-center items-center flex-col dark:text-thewhite tablet:p-20 p-10'>
