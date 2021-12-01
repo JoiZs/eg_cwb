@@ -11,8 +11,8 @@ module.exports = {
         thedarkblue: "#022131",
       },
       backgroundImage: {
-        "home-bg0": "url('./assets/bg-home.png')",
-        "home-bg1": "url('./assets/bg-home2.png')",
+        "home-bg0": "url('./assets/bg-home.svg')",
+        "home-bg1": "url('./assets/bg-home2.svg')",
         "polyline-bg": "url('./assets/bg-polyline.png')",
       },
       screens: {
